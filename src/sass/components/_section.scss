@@ -1,0 +1,11 @@
+.section {
+  margin-bottom: 80px;
+
+  & > * ~ * {
+    margin-top: 70px;
+  }
+}
+.section__title {
+  text-align: center;
+  font-size: 1.5rem;
+}
